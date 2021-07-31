@@ -6,14 +6,13 @@
 
 ## Overview
 
-Backend server for the city explorer site.
+Backend server for the city explorer site. Will provide weather data from a data file for now. Will eventually interact with APIs for us.
 
 ## Getting Started
 
 - Clone from repo. [Link to Repo](https://github.com/Willem-Jacobs/city-explorer-api)
 - `npm install` or `npm i` to install dependencies.
-- `.env` file needed with the API key in it. Ensure .env is added to the `.gitignore` file.
-  - `REACT_APP_CITY_KEY=<YOUR KEY VALUE INSERTED>` for LocationIQ.
+- `.env` file needed with the API keys or other items needed for the site. Ensure .env is added to the `.gitignore` file.
   - `PORT=3001`
 
 ## Architecture
