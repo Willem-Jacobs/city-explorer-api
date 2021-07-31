@@ -10,9 +10,11 @@ Backend server for the city explorer site.
 
 ## Getting Started
 
-- Clone from repo. [Link to Repo](https://github.com/Willem-Jacobs/city-explorer)
+- Clone from repo. [Link to Repo](https://github.com/Willem-Jacobs/city-explorer-api)
 - `npm install` or `npm i` to install dependencies.
-- `.env` file needed with the API key in it. `REACT_APP_CITY_KEY=<YOUR KEY VALUE INSERTED>` for LocationIQ.
+- `.env` file needed with the API key in it. Ensure .env is added to the `.gitignore` file.
+  - `REACT_APP_CITY_KEY=<YOUR KEY VALUE INSERTED>` for LocationIQ.
+  - `PORT=3001`
 
 ## Architecture
 
@@ -21,7 +23,6 @@ Backend server for the city explorer site.
 - express
 - dotenv
 - cors
-- Axios
 - UML picture - ![UML](CE-UMLv1-1.png "UML Image")
 
 ## Change Log
@@ -46,36 +47,36 @@ No collaborations from others on this project.
 
 ### Feature 2 Trello Card #2
 
-**Name of feature:** Get city info from API
+**Name of feature:**
 
-**Estimate of time needed to complete:** 2 hours
+**Estimate of time needed to complete:**
 
-**Start time:** 10:00am
+**Start time:**
 
-**Finish time:** 1:30pm
+**Finish time:**
 
-**Actual time needed to complete:** 2 hours. Took a 1.5 hour break for lunch and some other things.
+**Actual time needed to complete:**
 
 ### Feature 3 Trello card #3
 
-**Name of feature:** To show a map of the city searched
+**Name of feature:**
 
-**Estimate of time needed to complete:** 1 hour
+**Estimate of time needed to complete:**
 
-**Start time:** 09:00pm
+**Start time:**
 
-**Finish time:** 10:45pm
+**Finish time:**
 
-**Actual time needed to complete:** 1:45 hours.
+**Actual time needed to complete:**
 
 ### Feature 4 Trello card #4
 
-**Name of feature:** Error messages
+**Name of feature:**
 
-**Estimate of time needed to complete:** 30 mins
+**Estimate of time needed to complete:**
 
-**Start time:** 10:00am
+**Start time:**
 
-**Finish time:** 1:30pm
+**Finish time:**
 
-**Actual time needed to complete:** 30 mins. This was done as I was working on the data retrieval part of the assignment from the API.
+**Actual time needed to complete:**
