@@ -34,11 +34,11 @@ app.get("/weather", (req, res) => {
       });
       res.send(weatherArray);
     } else {
-      res.status(400).send(`${cityName} weather was not found!`);
+      res.status(500).send("Something went wrong. No weather data available");
     }
   } else {
     if (!cityName) {
-      res.status(400).send("City name was not received");
+      res.status(500).send("Someting went wrong. Invalid city");
     }
   }
 });
