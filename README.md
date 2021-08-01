@@ -26,13 +26,13 @@ Backend server for the city explorer site. Will provide weather data from a data
 
 ## Change Log
 
-07.27.2021 10:30am (V1.0.0) - Basic structure setup and deployed.
+07.27.2021 10:30am (V1.0.0) - Basic structure setup and deployed along with first route to weather. Used dummy data on a JSON file for now.
 
 ## Credit and Collaborations
 
 No collaborations from others on this project.
 
-### Feature 1 Trello Card #1
+### Feature Lab-07 Trello Card #1
 
 **Name of feature:** Basic structure setup and deployed
 
@@ -44,17 +44,17 @@ No collaborations from others on this project.
 
 **Actual time needed to complete:** 1:20 hour
 
-### Feature 2 Trello Card #2
+### Feature 2 Lab-07 Trello Card #2
 
-**Name of feature:**
+**Name of feature:** Route to /weather to get the data needed
 
-**Estimate of time needed to complete:**
+**Estimate of time needed to complete:** 2 hours
 
-**Start time:**
+**Start time:** 03:30pm
 
-**Finish time:**
+**Finish time:** 05:30pm
 
-**Actual time needed to complete:**
+**Actual time needed to complete:** Hard to say as I worked on the front end and back end at the same time.
 
 ### Feature 3 Trello card #3
 
