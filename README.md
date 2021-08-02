@@ -22,6 +22,7 @@ Backend server for the city explorer site. Will provide weather data from a data
 - express
 - dotenv
 - cors
+- nodemon to run server and restart at change to files.
 - UML lab-06 - ![UML](CE-UMLv1-1.png "UML Image")
 - UML lab-07 - ![UML](CE-Lab07-1.png "UML Image")
 
