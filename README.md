@@ -1,7 +1,7 @@
 # city-explorer-api
 
 **Author**: Willem Jacobs
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.0.1 (increment the patch/fix version number if you make more commits past your first submission)
 **Deployed Site**: None - This backend server
 
 ## Overview
@@ -29,6 +29,8 @@ Backend server for the city explorer site. Will provide weather data from a data
 ## Change Log
 
 07.27.2021 10:30am (V1.0.0) - Basic structure setup and deployed along with first route to weather. Used dummy data on a JSON file for now.
+
+08.03.2021 10:50pm (v1.0.1) - Added call from server to weatherbit.io to get the 5 day forecast for the city eneted and return the data to front-end formatted as needed.
 
 ## Credit and Collaborations
 
@@ -58,17 +60,17 @@ No collaborations from others on this project.
 
 **Actual time needed to complete:** Hard to say as I worked on the front end and back end at the same time.
 
-### Feature 3 Trello card #3
+### Feature Lab 08 Trelly card 01
 
-**Name of feature:**
+**Name of feature:** Fetch weather from weatherbit.i0
 
-**Estimate of time needed to complete:**
+**Estimate of time needed to complete:** 1 hour
 
-**Start time:**
+**Start time:** 9:30pm
 
-**Finish time:**
+**Finish time:** 10:30pm
 
-**Actual time needed to complete:**
+**Actual time needed to complete:** 1 hour.
 
 ### Feature 4 Trello card #4
 
