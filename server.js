@@ -22,7 +22,6 @@ class Movie {
     this.overview = movie.overview;
     this.average_votes = movie.vote_average;
     this.total_votes = movie.vote_count;
-    // this.image_url = `http://image.tmdb.org/t/p/w500${movie.poster_path}`;
     this.image_url = movie.poster_path
       ? `http://image.tmdb.org/t/p/w500${movie.poster_path}`
       : "";

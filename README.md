@@ -2,7 +2,7 @@
 
 **Author**: Willem Jacobs
 **Version**: 1.0.2 (increment the patch/fix version number if you make more commits past your first submission)
-**Deployed Site**: None - This backend server
+**Deployed Site**: https://city-explorer-api-wamj.herokuapp.com/
 
 ## Overview
 
@@ -14,6 +14,8 @@ Backend server for the city explorer site. Will provide weather data from a data
 - `npm install` or `npm i` to install dependencies.
 - `.env` file needed with the API keys or other items needed for the site. Ensure .env is added to the `.gitignore` file.
   - `PORT=3001`
+  - WEATHER_API_KEY needed in .env file
+  - MOVIE_API_KEY needed in .env file
 
 ## Architecture
 
@@ -22,6 +24,7 @@ Backend server for the city explorer site. Will provide weather data from a data
 - express
 - dotenv
 - cors
+- Heroku for deployment
 - nodemon to run server and restart at change to files.
 - UML lab-06 - ![UML](CE-Lab06-UML.png "UML Image")
 - UML lab-07 - ![UML](CE-Lab07-UML.png "UML Image")
