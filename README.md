@@ -1,7 +1,7 @@
 # city-explorer-api
 
 **Author**: Willem Jacobs
-**Version**: 1.0.2 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.0.3 (increment the patch/fix version number if you make more commits past your first submission)
 **Deployed Site**: https://city-explorer-api-wamj.herokuapp.com/
 
 ## Overview
@@ -37,6 +37,8 @@ Backend server for the city explorer site. Will provide weather data from a data
 08.03.2021 10:50pm (v1.0.1) - Added call from server to weatherbit.io to get the 5 day forecast for the city eneted and return the data to front-end formatted as needed.
 
 08.04.2021 9:19pm (v1.0.2) - Added the MovieDB API call to get movies using the city search string. Checks for the city name in the title. Creates a new data structure using a class and returns the data to the client.
+
+08.07.2021 02:05pm (v1.0.3) - Created a weather.js and a movies.js to make them be their own module(component) that is imported into server.js to be used.
 
 ## Credit and Collaborations
 
@@ -89,3 +91,15 @@ No collaborations from others on this project.
 **Finish time:** unknown
 
 **Actual time needed to complete:** about 2 hours to complete as I did plenty testing to ensure data correct and to learn. Probably could reduce to 1 hour if I worked only on these fatures.
+
+### Feature Lab-09 various cards
+
+**Name of feature:** Create movies.js and weather.js components
+
+**Estimate of time needed to complete:** 30 mins
+
+**Start time:** 01:50pm
+
+**Finish time:** 02:05pm
+
+**Actual time needed to complete:** 15 minutes. This a simple process for me.
