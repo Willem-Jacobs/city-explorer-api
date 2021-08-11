@@ -20,7 +20,6 @@ function getMovie(search) {
       .get(url)
       .then((response) => parseMovie(response.data.results));
   }
-  console.log(cache[key].data);
   return cache[key].data;
 }
 
