@@ -18,7 +18,7 @@ function getWeather(latitude, longitude) {
     cache[key].timestamp = Date.now();
     cache[key].data = axios
       .get(url)
-      .then((response) => parseWeather(response.data));
+      .then((response) => parseWeather([response.data, cache[key].timestamp]));
   }
   return cache[key].data;
 }
@@ -35,10 +35,9 @@ function weatherHandler(request, response) {
 
 function parseWeather(weatherData) {
   try {
-    const weatherSummaries = weatherData.data.map((day) => {
-      return new Weather(day);
+    const weatherSummaries = weatherData[0].data.map((day) => {
+      return new Weather(day, weatherData[1]);
     });
-    // console.log("Weather Summaries: ", weatherSummaries);
     return Promise.resolve(weatherSummaries);
   } catch (e) {
     return Promise.reject(e);
@@ -46,9 +45,10 @@ function parseWeather(weatherData) {
 }
 
 class Weather {
-  constructor(day) {
+  constructor(day, stamp) {
     this.description = `Low of ${day.low_temp}, high of ${day.max_temp} with ${day.weather.description}`;
     this.date = day.datetime;
     this.icon = day.weather.icon;
+    this.timestamp = stamp;
   }
 }
