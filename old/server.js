@@ -7,15 +7,17 @@ app.use(cors());
 require("dotenv").config();
 const PORT = process.env.PORT;
 
-const weatherHandler = require("./modules/weather.js");
-const movieHandler = require("./modules/movie.js");
+const getWeatherData = require("./weather");
+const getMovieData = require("./movies");
 
-app.get("/weather", weatherHandler);
+app.get("/movies", getMovieData);
 
-app.get("/movies", movieHandler);
+app.get("/weather", getWeatherData);
 
 app.get("/*", (req, res) => {
   res.status(404).send("Page not found");
 });
 
-app.listen(PORT, () => console.log(`Server up on ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`Example app listening at http://localhost:${PORT}`);
+});
