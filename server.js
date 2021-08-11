@@ -8,12 +8,12 @@ require("dotenv").config();
 const PORT = process.env.PORT;
 
 const weatherHandler = require("./modules/weather.js");
-// const movie = require('./modules/movie.js');
+const movieHandler = require("./modules/movie.js");
 // const city = require('./modules/city.js');
 
 app.get("/weather", weatherHandler);
 
-// app.get("/movies", movieHandler);
+app.get("/movies", movieHandler);
 
 // app.get('/city', cityHandler);
 
