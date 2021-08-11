@@ -13,7 +13,7 @@ function getWeather(latitude, longitude) {
   if (cache[key] && Date.now() - cache[key].timestamp < 10000) {
     console.log("Cache hit-weather");
   } else {
-    console.log("Cache miss-eather");
+    console.log("Cache miss-weather");
     cache[key] = {};
     cache[key].timestamp = Date.now();
     cache[key].data = axios
