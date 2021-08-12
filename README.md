@@ -6,7 +6,7 @@
 
 ## Overview
 
-Backend server for the city explorer site. Will provide weather data from a data file for now. Will eventually interact with APIs for us.
+Backend server for the city explorer site. The backend gets uses API for weather information and a movie API to get movies. Items are cached for 10 seconds for testing.
 
 ## Getting Started
 
@@ -29,6 +29,7 @@ Backend server for the city explorer site. Will provide weather data from a data
 - UML lab-06 - ![UML](CE-Lab06-UML.png "UML Image")
 - UML lab-07 - ![UML](CE-Lab07-UML.png "UML Image")
 - UML Lab-08 - ![UML](CE-Lab08-UML.png "UML Image")
+- UML Lab-10 - ![UML](CE-Lab10-UML.png "UML Image")
 
 ## Change Log
 
@@ -39,6 +40,8 @@ Backend server for the city explorer site. Will provide weather data from a data
 08.04.2021 9:19pm (v1.0.2) - Added the MovieDB API call to get movies using the city search string. Checks for the city name in the title. Creates a new data structure using a class and returns the data to the client.
 
 08.07.2021 02:05pm (v1.0.3) - Created a weather.js and a movies.js to make them be their own module(component) that is imported into server.js to be used.
+
+08.11.2021 08:30pm (v1.0.4) - Restructed backend to use modules correctly breaking up the code per endpoint function. Added caching for the weather and the movies. Stretch goal completed
 
 ## Credit and Collaborations
 
@@ -103,3 +106,15 @@ No collaborations from others on this project.
 **Finish time:** 02:05pm
 
 **Actual time needed to complete:** 15 minutes. This a simple process for me.
+
+### Feature Lab-10 Card 1
+
+**Name of feature:** Starter Code/Debug/Add caching
+
+**Estimate of time needed to complete:** 2 hours
+
+**Start time:** various
+
+**Finish time:** various
+
+**Actual time needed to complete:** I spend most of the day working on this but a lot of my time was research and testing on another server app I use for testing. I would say I sepend about 3 hours working on this card from Trello but I moved the movies to the caching also. I used the start code for this lab and moved my old server files to a folder called `old`. The stretch goal for card 1 is completed where it shows you on the weather card (front end) how much time in seconds has passed since the last cache of the data. I was going to add the Yelp items but I need some sleep tonight as the last 4 nights have been 5 hours sleep only.
